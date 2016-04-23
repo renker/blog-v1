@@ -7,4 +7,12 @@
   </parent>
   <artifactId>blog-admin</artifactId>
   <packaging>war</packaging>
+  
+  <dependencies>
+      	<dependency>
+			<groupId>com.ct.blog</groupId>
+			<artifactId>blog-service</artifactId>
+			<version>${blog.version}</version>
+		</dependency>
+  </dependencies>
 </project>
