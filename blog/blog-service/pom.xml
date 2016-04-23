@@ -7,13 +7,6 @@
   </parent>
   <artifactId>blog-service</artifactId>
   <packaging>jar</packaging>
-  <dependencies>
-		<dependency>
-			<groupId>com.ct.blog</groupId>
-			<artifactId>blog-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-  </dependencies>
   <build>
 		<plugins>
 			<plugin>

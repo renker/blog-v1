@@ -15,6 +15,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <org.springframework.version>4.2.0.RELEASE</org.springframework.version>
     <org.apache.shiro.version>1.2.4</org.apache.shiro.version>
+    <blog.version>0.0.1-SNAPSHOT</blog.version>
   </properties>
   
   <dependencies>
