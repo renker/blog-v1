@@ -21,7 +21,7 @@
 		</javaModelGenerator>
 		<sqlMapGenerator targetPackage="com.ct.person.mapper" targetProject="D:\mybatisGeneratorFile" />
 		<javaClientGenerator targetPackage="com.ct.person.dao" targetProject="D:\mybatisGeneratorFile" type="XMLMAPPER">
-		   <!--  <property name="rootInterface" value="com.ouyeel.xplat.data.mapper.XMapper" /> -->
+		   <property name="rootInterface" value="com.ct.base.mapper.BaseMapper" />
 		</javaClientGenerator>
 		
 		<table tableName="tbl_core_person" domainObjectName="Person" alias="p"
@@ -29,7 +29,6 @@
 		    enableSelectByExample="false" 
 		    enableUpdateByExample="false" 
 		    enableDeleteByExample="false">
-		    <!-- <property name="rootClass" value="com.ct.base.entity.BaseEntity" /> -->
 		</table>
 	</context>
 </generatorConfiguration>
