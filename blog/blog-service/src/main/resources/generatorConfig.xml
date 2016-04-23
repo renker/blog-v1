@@ -20,7 +20,7 @@
 		<javaModelGenerator targetPackage="com.ct.person.entity" targetProject="D:\mybatisGeneratorFile">
 		</javaModelGenerator>
 		<sqlMapGenerator targetPackage="com.ct.person.mapper" targetProject="D:\mybatisGeneratorFile" />
-		<javaClientGenerator targetPackage="com.ct.person.dao" targetProject="D:\mybatisGeneratorFile" type="MIXEDMAPPER">
+		<javaClientGenerator targetPackage="com.ct.person.dao" targetProject="D:\mybatisGeneratorFile" type="XMLMAPPER">
 		   <!--  <property name="rootInterface" value="com.ouyeel.xplat.data.mapper.XMapper" /> -->
 		</javaClientGenerator>
 		
