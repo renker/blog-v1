@@ -175,4 +175,20 @@
       update_by = #{updateBy,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+  
+  
+  	<select id="selectByAccount" resultMap="BaseResultMap">
+		select 
+		<include refid="Base_Column_List" />
+		from tbl_core_person
+		where account = #{account,jdbcType=VARCHAR}
+	</select>
+	
+	
+	<select id="selectByAccountAndPassword" resultMap="BaseResultMap">
+		select 
+		<include refid="Base_Column_List" />
+		from tbl_core_person
+		where account = #{account,jdbcType=VARCHAR} and password = #{password,jdbcType=VARCHAR}
+	</select>
 </mapper>

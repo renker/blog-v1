@@ -48,5 +48,5 @@
 	<tx:annotation-driven transaction-manager="transactionManager"/>
 	
 	
-	<!-- <import resource="spring-shiro.xml"/> -->
+	<import resource="applicationContext-shiro.xml"/>
 </beans>

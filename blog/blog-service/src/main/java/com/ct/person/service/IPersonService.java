@@ -1,5 +1,11 @@
 package com.ct.person.service;
 
-public interface IPersonService {
+import org.apache.ibatis.annotations.Param;
 
+import com.ct.person.entity.Person;
+
+public interface IPersonService {
+	Person login(String account);
+		
+	Person login(@Param("account")String account,@Param("password")String password);
 }
