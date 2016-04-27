@@ -47,7 +47,8 @@
 				/statc/**=anon
 				/admin/doLogin=anon
 				/admin/loginOut=logout
-				/admin/**=authc
+				<!-- /admin/**=authc -->
+				/admin/**=anon
 			</value>
 		</property>
 	</bean>
